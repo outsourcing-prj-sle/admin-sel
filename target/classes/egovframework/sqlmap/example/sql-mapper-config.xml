@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+    <typeAliases>
+		<typeAlias alias="egovMap" type="org.egovframe.rte.psl.dataaccess.util.EgovMap"/>
+		<typeAlias alias="loginVO" type="egovframework.example.cmmn.model.LoginVO"/>
+		<typeAlias alias="accountDTO" type="egovframework.example.cmmn.model.AccountDTO"/>
+		<typeAlias alias="siteManageDTO" type="egovframework.example.admin.system.model.SiteManageDTO"/>
+		<typeAlias alias="TermsManageDTO" type="egovframework.example.admin.system.model.TermsManageDTO"/>
+		<typeAlias alias="commonCodesDTO" type="egovframework.example.admin.system.model.CommonCodesDTO"/>
+		<typeAlias alias="subCommonCodesDTO" type="egovframework.example.admin.system.model.SubCommonCodesDTO"/>
+		<typeAlias alias="ipTableDTO" type="egovframework.example.admin.system.model.IpTableDTO"/>
+    </typeAliases>
+</configuration>
